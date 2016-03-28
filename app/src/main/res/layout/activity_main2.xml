@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:id="@+id/layout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/editName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="Nom">
+    </EditText>
+    <EditText
+        android:id="@+id/editSurname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Prénom"/>
+
+    <EditText
+        android:id="@+id/editTown"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ville de naissance"/>
+
+    <EditText
+        android:id="@+id/editDateOfBirth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Date de naissance"/>
+
+</LinearLayout>
